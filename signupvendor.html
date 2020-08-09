@@ -1,0 +1,60 @@
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <head>
+        <script src="documents/myscript.js"></script>
+        <link rel="stylesheet" type="text/css" href="documents/mystyle.css">
+        <title>SPINZA B2B HARDWARE STORE</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img class="img" src="documents/logo.png" alt="logo" style="width:100px;height:100px;"></a>
+            <h1>SPINZA B2B STORE</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="signin.html">Sign in</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav><br><br>
+        <form action="home.html" onsubmit="return passmatch(this)" method="POST" style="border:1px solid #ccc">
+            <div class="container">
+              <b><h2 style="text-align: center;">Sign Up</h2></b>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label for="rpsw"><b>ReEnter Password</b></label>
+              <input type="password" placeholder="Repeat Password" id="rpsw" name="rpsw" required>
+
+              <label for="orgname"><b>Organization Name</b></label>
+              <input type="text" placeholder="Enter Company Name" id="orgname" name="orgname" required>
+         
+              <label for="orgadd"><b>Enter Address</b></label>
+              <input type="text" placeholder="Enter Company Address" id="orgadd" name="orgadd" required>
+
+              <label for="orgcity"><b>City</b></label>
+              <input type="text" placeholder="Enter City" id="orgcity" name="orgcity" required>
+
+              <label for="orggst"><b>GST No.</b></label>
+              <input type="text" placeholder="Enter GST Number" id="orggst" name="orggst" required>
+          
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+                <button type="submit" class="signupbtn">Sign Up</button>
+                <button type="button" class="cancelbtn">Cancel</button>
+              </div>
+            </div>
+          </form>
+        <br><br>
+        <footer>
+            <a href="contact.html">Contact</a>
+            <a href="report.html">Report to Seller</a>
+            <br><h5>Copyright ©SPINZA. All rights reserved.</h5>
+        </footer>
+    </body>
+</html>
